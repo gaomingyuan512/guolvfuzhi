@@ -2,7 +2,6 @@ const fly = require("flyio");
 const atob = require('atob');
 const btoa = require('btoa');
 const isUrl = require('is-url');
-const vmess = require('./quantumultx');
 const URLSafeBase64 = require('urlsafe-base64');
 
 exports.handler = function (event, context, callback) {
